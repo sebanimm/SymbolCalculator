@@ -48,10 +48,6 @@ function getValue(checkbox) {
     if (checkbox.checked) {
         symType = parseInt(checkbox.value);
     }
-
-    if (symType === 0) {
-        alert("심볼을 선택해주세요.");
-    }
 }
 
 // 심볼 계산하는 함수

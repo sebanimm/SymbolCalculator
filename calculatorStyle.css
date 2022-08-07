@@ -224,7 +224,8 @@ input[type="number"] {
 }
 
 .content {
-    padding: 10px 15px;;
+    padding: 10px 15px;
+    ;
 }
 
 .content .title {
@@ -232,7 +233,7 @@ input[type="number"] {
     font-weight: bold;
 }
 
-.content > p {
+.content>p {
     font-size: 20px;
     text-align: center;
     font-family: "mapleLight";
