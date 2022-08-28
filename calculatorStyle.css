@@ -76,21 +76,6 @@ label:active > img {
   justify-content: space-around;
 }
 
-#uncheck-icon {
-  display: none;
-}
-
-#uncheck-icon + label {
-  display: block;
-  width: 30px;
-  height: 20px;
-  position: relative;
-  cursor: pointer;
-  transition: 0.2s;
-  left: 88%;
-  top: -12.5%;
-}
-
 #symbol-type {
   width: 540px;
   height: 315px;
@@ -115,9 +100,9 @@ label:active > img {
   border: 5px solid black;
   border-radius: 10px;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   margin: auto;
-  width: 680px;
+  width: 540px;
   height: 161px;
 }
 
@@ -139,7 +124,7 @@ label:active > img {
 }
 
 #result {
-  width: 580px;
+  width: 400px;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -149,7 +134,7 @@ label:active > img {
 #result > p {
   margin: 10px 0;
   text-align: center;
-  font-size: 28px;
+  font-size: 24px;
   font-family: "mapleLight";
 }
 
