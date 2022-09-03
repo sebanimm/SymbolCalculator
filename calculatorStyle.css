@@ -43,7 +43,7 @@ body::before {
   background-repeat: no-repeat;
   z-index: -1;
   content: "";
-  background-position: bottom center;
+  background-position: bottom bottom;
 }
 
 h2 {

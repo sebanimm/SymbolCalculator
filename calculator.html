@@ -27,7 +27,6 @@
               </label>
               <input
                 type="checkbox"
-                value="1"
                 id="arcSym-1st"
                 name="symbol-check"
                 onclick="onlyOneInput(this), getValue(this)"
@@ -43,7 +42,6 @@
               </label>
               <input
                 type="checkbox"
-                value="2"
                 id="arcSym-2nd"
                 name="symbol-check"
                 onclick="onlyOneInput(this), getValue(this)"
@@ -59,7 +57,6 @@
               </label>
               <input
                 type="checkbox"
-                value="3"
                 id="arcSym-3rd"
                 name="symbol-check"
                 onclick="onlyOneInput(this), getValue(this)"
@@ -75,7 +72,6 @@
               </label>
               <input
                 type="checkbox"
-                value="4"
                 id="arcSym-4th"
                 name="symbol-check"
                 onclick="onlyOneInput(this), getValue(this)"
@@ -137,13 +133,29 @@
                 <img
                   src="./image/AuthenticSymbol/HotelArcs.png"
                   class="aut"
-                  title="어센틱 심볼 : 호텔 아르크스"
+                  title="어센틱 심볼 : 아르크스"
                 />
               </label>
               <input
                 type="checkbox"
                 value="8"
                 id="autSym-2nd"
+                name="symbol-check"
+                onclick="onlyOneInput(this), getValue(this)"
+              />
+            </div>
+            <div>
+              <label for="autSym-3rd">
+                <img
+                  src="./image/AuthenticSymbol/Odium.png"
+                  class="aut"
+                  title="어센틱 심볼 : 오디움"
+                />
+              </label>
+              <input
+                type="checkbox"
+                value="9"
+                id="autSym-3rd"
                 name="symbol-check"
                 onclick="onlyOneInput(this), getValue(this)"
               />
@@ -156,10 +168,10 @@
             <div class="input-value">
               <input
                 type="number"
+                value="1"
                 id="level-input"
                 maxlength="2"
                 placeholder="1 ~ 19"
-                value="1"
                 step="1"
                 oninput="numberMaxLength(this)"
               />
@@ -170,10 +182,10 @@
             <div class="input-value">
               <input
                 type="number"
+                value="0"
                 id="number-input"
                 maxlength="4"
                 placeholder="0 ~ 2679"
-                value="0"
                 step="1"
                 oninput="numberMaxLength(this)"
               />
@@ -184,10 +196,10 @@
             <div class="input-value">
               <input
                 type="number"
+                value="0"
                 id="meso-input-100M"
                 maxlength="3"
                 placeholder="0 ~ 999"
-                value="0"
                 step="1"
                 oninput="numberMaxLength(this)"
               />
@@ -198,10 +210,10 @@
             <div class="input-value">
               <input
                 type="number"
+                value="0"
                 id="meso-input-10K"
                 maxlength="4"
                 placeholder="0 ~ 9999"
-                value="0"
                 step="1"
                 oninput="numberMaxLength(this)"
               />
